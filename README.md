@@ -4,7 +4,11 @@ A Patch/trick of `grub.d/10_linux` to make it possible to set REAL DEFAULT kerne
 ## Usage:
 1. Copying `09_default_title_kernel` into `/etc/grub.d/`.
 
-2. Editing `/etc/default/grub` ( or `/etc/default/grub` according to your distro ), adding like
+2. `chmod 755` for `09_default_title_kernel` 
+
+  MAKE SURE!
+
+4. Editing `/etc/default/grub` ( or `/etc/default/grub` according to your distro ), adding like
 ```
 GRUB_TITLE_KERNEL_VERSION=6.1.
 ```
