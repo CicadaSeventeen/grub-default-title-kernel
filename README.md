@@ -1,4 +1,4 @@
-# grub-default-title-version
+# grub-default-title-kernel
 A Patch of `grub.d/10_linux` to make it possible to set REAL DEFAULT kernel version for grub2. I call it `title version` because it is the first options in the grub2 menu.
 
 ## Usage:
